@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>Version</key>
-	<integer>2</integer>
+	<integer>0.1</integer>
 	<key>Extension Name</key>
-	<string>Google Translate</string>
+	<string>Goodreads</string>
 	<key>Extension Identifier</key>
-	<string>com.pilotmoon.popclip.extension.google-translate</string>
+	<string>com.pilotmoon.popclip.extension.goodreads</string>
 	<key>Extension Description</key>
-	<string>Open Google Translate in a web browser with the selected text.</string>
+	<string>Search for selected book on Goodreads</string>
 	<key>Actions</key>
 	<array>
 		<dict>
 			<key>URL</key>
-			<string>http://translate.google.com/?langpair=auto%7Cauto&amp;text={popclip text}</string>
+			<string>http://www.goodreads.com/search?utf8=%E2%9C%93&query={popclip text}</string>
 			<key>Image File</key>
-			<string>TranslationIcon.png</string>
+			<string>GoodreadsIcon.png</string>
 			<key>Title</key>
-			<string>Translate</string>
+			<string>Goodreads</string>
 			<key>Regular Expression</key>
 			<string>(?s)^.{1,1900}$</string>
 		</dict>
