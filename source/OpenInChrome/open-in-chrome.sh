@@ -1,1 +1,0 @@
-open -b com.google.Chrome $POPCLIP_TEXT
